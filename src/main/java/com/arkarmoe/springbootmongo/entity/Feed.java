@@ -15,6 +15,10 @@ public class Feed {
 
     private Long userId;
 
+    private Integer likedCount=0;
+
+    private Integer sharedCount=0;
+
     private String status;
 
     @JsonFormat(pattern = "dd-MM-yyyy HH:mm:ss")
